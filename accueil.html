@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style_accueil.css')}}">
+
+ <head>
+<body>
+  <form method="POST" action="/authentication">
+    <h1>Login</h1>
+    <div class="input-box">
+      <i class="fa fa-envelope-o" ></i>
+      <input type="email" id="mail" placeholder="Enter your mail"  name="mail"  required>  
+    </div>
+    <div class="input-box">
+      <i class="fa fa-key" ></i>
+      <input type="password" name="pwd" id="pwd" placeholder="Enter your password" required>
+      <span class="eye" onclick="myfonction()">
+        <i class="fa fa-eye-slash" id="eye1"></i>
+        <i class="fa fa-eye" id="eye2"></i>
+      </span>
+      
+    </div>
+    <div class="input-submit">
+      <input type="submit" value="Login"  >
+    </div>
+    <p>forget password ? <a href="">cliquer ici</a></p>
+    
+  
+  </form>
+  <script>
+    function myfonction(){
+      var x= document.getElementById('pwd');
+      var y= document.getElementById('eye1');
+       var z= document.getElementById('eye2');
+      if (x.type === 'password'){
+        y.style.display='none';
+        z.style.display='block';
+        x.type= 'text';
+      }
+      else{
+        z.style.display='none';
+        y.style.display='block';
+        x.type='password';
+        
+      }
+    }
+    
+  </script>
+  
+</body>
+</html>
+
