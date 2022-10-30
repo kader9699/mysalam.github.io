@@ -4,15 +4,13 @@ form {
   width: 40%;
   margin: 5% auto;
   padding: 5% 0;
-  /*background-color:transparent/* #013289;*/
- /* box-shadow: 0 0 20px 2px rgb(107, 118, 177); #4154f1; #013289;; */
 }
 .input-box{
   width: 80%;
   margin: 5% auto;
   padding-top: 5%;
   border-bottom: 1px solid white;
-  /*box-shadow: (0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;  rgba(0,0,0,0.5);*/
+  /*box-shadow: (0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;  rgba(0,0,0,0.5); background-color:transparent #013289 box-shadow: 0 0 20px 2px rgb(107, 118, 177);*/
 }
 h1{color:white;
   text-align: center;
