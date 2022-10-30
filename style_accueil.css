@@ -4,8 +4,8 @@ form {
   width: 40%;
   margin: 5% auto;
   padding: 5% 0;
-  background-color:transparent/* #013289;*/
-  box-shadow: 0 0 20px 2px rgb(107, 118, 177);/*#4154f1;/* #013289;; */
+  /*background-color:transparent/* #013289;*/
+ /* box-shadow: 0 0 20px 2px rgb(107, 118, 177); #4154f1; #013289;; */
 }
 .input-box{
   width: 80%;
